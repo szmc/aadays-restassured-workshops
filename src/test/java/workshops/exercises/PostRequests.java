@@ -2,9 +2,6 @@ package workshops.exercises;
 
 import com.jayway.restassured.response.Response;
 import org.testng.annotations.Test;
-import workshops.answers.Authentication;
-import workshops.answers.GetRequests;
-
 import static com.jayway.restassured.RestAssured.given;
 
 public class PostRequests {
