@@ -9,8 +9,8 @@ import static com.jayway.restassured.RestAssured.given;
 public class Authentication {
 
 	String url = "https://api.trello.com/1";
-	String apiKey = "";
-	String token = "";
+	String apiKey = "";//https://trello.com/app-key
+	String token = ""; //https://trello.com/1/authorize?expiration=1day&name=SinglePurposeToken&key=REPLACE_WITH_YOUR_APIKEY
 
 	/**
 	 * Example: login with credentials
