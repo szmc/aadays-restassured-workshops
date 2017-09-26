@@ -13,7 +13,6 @@ public class GetRequests {
 	/** Exercise 1 Boards
 	 * 1) Create get request for /members/me/boards endpoint
 	 * 2) Create method that will return id of chosen board taking board name as a parameter
-	 * 3) Display permision level for choosen board
 	 */
 
 
@@ -31,13 +30,8 @@ public class GetRequests {
 	}
 
 	@Test
-	public void displayPermissionLevelTest() {
-		//ToDo: call displayBoards with jsonPath.get("parent_node.child_node[order of parent node]" method here)
-	}
-
-	@Test
 	public void displayBoardIdTest() {
-		System.out.println(getBoardId("Agile Automation app"));
+		System.out.println(getBoardId(""));
 	}
 
 	public String getBoardId(String boardName) {
